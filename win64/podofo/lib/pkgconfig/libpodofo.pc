@@ -1,0 +1,10 @@
+prefix=/mingw64
+exec_prefix=${prefix}
+libdir=/mingw64/lib
+includedir=/mingw64/include/podofo
+
+Name: PoDoFo
+Description: A C++ library to work with the PDF file format
+Version: 0.10.4
+Libs: -L${libdir} -lpodofo
+Cflags: -I${includedir}
